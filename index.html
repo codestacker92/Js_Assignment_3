@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/Item.js" async defer></script>
+  <script src="js/Cart.js" async defer></script>
+  <script src="js/app.js" async defer></script>
+  <link rel="stylesheet" href="css/app.css">
+  <title>Assignment 3</title>
+</head>
+<body>
+  <h1 id="siteTitle">Simple Shopping Cart</h1>
+  <div id="controls">
+    <label for="categorySelect">Category:</label>
+    <select id="categorySelect" onchange="categoryChanged()">
+      <option value="fashion">Fashion</option>
+      <option value="electronics">Electronics</option>
+    </select>
+  </div>
+  
+  <div id="products"></div>
+  <div id="items"></div>
+</body>
+</html>
