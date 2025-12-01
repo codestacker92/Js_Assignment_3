@@ -132,3 +132,34 @@ body {
   font-size: 1em;
   cursor: pointer;
 }
+/* --- MOBILE RESPONSIVE FIXES --- */
+@media (max-width: 768px) {
+
+  body {
+    padding: 20px;
+    font-size: 1.2em;
+  }
+
+  #products,
+  #items {
+    width: 100%;
+    float: none;
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .productImage {
+    width: 120px;
+    margin-right: 20px;
+  }
+
+  #checkoutBtn {
+    margin-top: 40px;
+  }
+}
